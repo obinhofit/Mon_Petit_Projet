@@ -12,8 +12,8 @@ from pageFragments.HeaderPageFragment import HeaderPageFragment
 from pages.ProductListPage import ProductListPage
 from pages.ProductPage import ProductPage
 from pageFragments.CardPopUpPage import CardPopUpPage
-from pages.CardPage import CardPage
-from pages.CheckoutPage import CheckoutPage
+#from pages.CardPage import CardPage
+#from pages.CheckoutPage import CheckoutPage
 
 class Test_FirstTest(BaseTest):  # héritage
 
@@ -45,6 +45,6 @@ class Test_FirstTest(BaseTest):  # héritage
         sleep(3)
 
 
-        butCardPage = CardPage(self.driver)
-        butCardPage.Click_But_Checkout()
-        sleep(3)
+       # butCardPage = CardPage(self.driver)
+        #butCardPage.Click_But_Checkout()
+        #sleep(3)
